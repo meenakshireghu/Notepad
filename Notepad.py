@@ -57,7 +57,7 @@ def saveFile():
         
     
 def quitApp():
-    root.destroy
+    root.destroy()
 def cut():
     TextArea.event_generate(("<<Cut>>"))
 def copy():
